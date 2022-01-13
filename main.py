@@ -2,10 +2,10 @@ import gspread
 from twitter import *
 
 gc = gspread.service_account('credentials.json')
-token = '1481574931645472770-piSZzU4GzyNiwI3cknFKh4jjOngiwt'
-token_secret = 'y1s3U1FdqipD2MphFfmy5ZkHs6nyw7KsBYekyZLqhrXLq'
-consumer_key = 'jIwmZbk3cXKyKXWLJQ54Db3km'
-consumer_secret = 'f5gh6QzVvugMoMQDMSXCBHBCwz9N3qoWlkCFD7ruUeBh8TRxjC'
+token = 'xxxxxXXXXXXXXyyyyyyyyyyYYYYYYYYYYYYYYY'
+token_secret = 'CcccccccccccccDDDDddddddiuefoiwhgqkebfgqeugfowqhgv.kwEBVg'
+consumer_key = 'skjhrfgowughwbvgoqwhfpq;jf'
+consumer_secret = 'sjuhgfoqbegvkwiuO;TYGUqopefb.wkUHGFPQIFR'
 
 t = Twitter(
     auth=OAuth(token, token_secret, consumer_key, consumer_secret))
